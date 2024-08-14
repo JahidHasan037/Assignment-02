@@ -5,7 +5,7 @@
 .menu-cont{display: flex;gap: 20px;border: 1px solid rgba(128, 128, 128, 0.38);border-radius: 20px;}
 .menu-cont a{border-radius: 20px;padding: 10px 30px;text-decoration: none;font-size: 16px;font-weight: 600}
 .menu-cont a.active{background-color: #E6533C;}
-.menu-cont button{display: none;}
+.menu-click{display: none;}
 body{background-color: #000;}
 .body-container{width: 70%;margin: 0 auto;}
 .hero{height: 650px;width: 100%;display: grid;grid-template-columns: 500px 300px;justify-content: space-around;align-items: center;padding-top: 100px;}
