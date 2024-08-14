@@ -9,17 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <div class="menubar">
         <p class="title">Fitness</p>
-        <div class="menu-cont">
+        <div class="menu-cont" id="menuCont">
             <a href="" class="active">Home</a>
             <a href="">Service</a>
             <a href="">Contact</a>
             <a href="">About</a>
-            <button onclick="menuShowHide()">≡</button>
         </div>
+        <button class="menu-click" onclick="document.querySelector('#menuCont').classList.toggle('active')">≡</button>
+
     </div>
     <div class="body-container">
         <div class="hero">
@@ -63,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="sect-3">
+        <!-- <div class="sect-3">
             <div class="sect-3-left">
                 <h2>Run an Extra<br>Mile Easily</h2>
                 <p>We believe fitness should be accessible to everyone,everywhere,regardless of income or access to a gym. Within hundreds of professional.</p>
@@ -73,7 +75,38 @@
                 <img src="Images/run.jpg" alt="">
             </div>
         </div>
-        <div class="sect-4">
+        <div class="challenging-part">
+            <div class="p1">
+                <div><h2>Before Gym</h2><img src="Images/challenge/a (2).jpg" alt=""></div>
+                <div><h2>After Gym</h2><img src="Images/challenge/a (1).jpg" alt=""></div>
+            </div>
+            <div class="p2">
+                <h3>To maintain healthy life, We should follow :</h3>
+                <p>1. Eat a balanced diet rich in fruits, vegetables, and whole grains.<br>
+                    2. Exercise regularly with a mix of cardio and strength training.<br>
+                    3. Get 7-9 hours of quality sleep each night.<br>
+                    4. Manage stress through meditation, mindfulness, or deep breathing.<br>
+                    5. Stay hydrated by drinking plenty of water daily.<br>
+                    6. Avoid smoking and limit alcohol consumption.<br>
+                    7. Stay socially connected with friends and family.<br>
+                    8. Schedule regular medical check-ups and screenings.<br>
+                    9. Practice safe behaviors like wearing seatbelts and using sunscreen.<br>
+                    10. Cultivate a positive mindset through gratitude and mindfulness.<br>    
+                </p>
+            </div>
+            <h3 class="p3-h3">Some Healthy foods are here:</h3>
+            <div class="p3">
+                <div><img src="Images/challenge/f (6).jpeg" alt=""><h4>Apple</h4></div>
+                <div><img src="Images/challenge/f (2).webp" alt=""><h4>Jambura</h4></div>
+                <div><img src="Images/challenge/f (2).jpeg" alt=""><h4>Guava</h4></div>
+                <div><img src="Images/challenge/f (9).jpeg" alt=""><h4>Coconut</h4></div>
+                <div><img src="Images/challenge/f (4).webp" alt=""><h4>Dates</h4></div>
+                <div><img src="Images/challenge/f (1).jpeg" alt=""><h4>Cucumber</h4></div>
+                <div><img src="Images/challenge/f (8).jpeg" alt=""><h4>Orange</h4></div>
+                <div><img src="Images/challenge/f (7).jpeg" alt=""><h4>banana</h4></div>
+            </div>
+        </div> -->
+        <!-- <div class="sect-4">
             <div class="sect-4-bg"></div>
             <h2>BMI Calculator</h2>
             <p>We believe fitness should be accessible to everyone,everywhere,regardless of income or access to a gym. Within hundreds of professional.</p>
@@ -125,8 +158,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="sect-5">
+        </div> -->
+        <!-- <div class="sect-5">
             <h2>Meet Our Team</h2>
             <p>We believe fitness should be accessible to everyone,everywhere,regardless of income or access to a gym. Within hundreds of professional.</p>
             <div class="sect-5-blocks">
@@ -155,10 +188,10 @@
                     <div><h3>Jahid Hasan</h3><p>Trainer</p></div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
-<footer>
+<!-- <footer>
     <div class="footer-cont">
         <div class="bottom-sign">
             <h2>Fitness</h2>
@@ -180,5 +213,5 @@
         </div>
     </div>
     <p class="copyright">All right reserved @Fitness 2024</p>
-</footer>
+</footer> -->
 </html>
